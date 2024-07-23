@@ -1,0 +1,16 @@
+{
+    "env": {
+      "node": true, // Agrega esto para reconocer el entorno de Node.js
+      "es6": true   // Agrega esto para habilitar características de ES6
+    },
+    "parserOptions": {
+      "requireConfigFile": false
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      // Tus reglas de ESLint aquí
+    }
+  }
